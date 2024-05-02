@@ -1,0 +1,43 @@
+.container {
+    background-color: darkcyan;
+    min-height: 100vh;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.inp {
+    padding: 10px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.lable {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.message {
+    margin-top: 10px;
+    color: rgb(170, 0, 0);
+}

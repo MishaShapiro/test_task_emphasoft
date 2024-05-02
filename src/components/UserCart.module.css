@@ -1,0 +1,32 @@
+.cart {
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 20px 10px;
+    padding: 10px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.id {
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.mainInfo {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_btn, .delete_btn {
+    font-size: 14px;
+}
